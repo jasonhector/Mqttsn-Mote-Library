@@ -1,4 +1,4 @@
-MoteMqttsn
+Mqttsn Mote Library
 ==========
 
 This repo contains 3 parts:
