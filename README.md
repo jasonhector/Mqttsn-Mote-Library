@@ -2,9 +2,9 @@ Mqttsn Mote Library
 ==========
 
 This repo contains 3 parts:
-1)- MQTT-SN library for Arduino that has been "forked" from http://bitbucket.org/MerseyViking/mqtt-sn and https://github.com/boriz/MQTT-SN-Arduino. Sample sketches for publishing and subscribing are provided
-2)- Mote library for Arduino - this provides Remote Terminal Unit [RTU] functionality to arduino with features like analog deadbands, binary debounce, pulse and latch controls, etc. The Mote protocol is an application layer protocol to the MQTTSN libraries and has been defined in the this repos wiki
-3)- Mqttsn Router using Twisted Networking [python] - Data is routed between serial and UDP. The router buffers incoming data, checks for complete mqttsn packets and send complete packets on. Also decoded Mqttsn messages for debug console printout
+- MQTT-SN library for Arduino that has been "forked" from http://bitbucket.org/MerseyViking/mqtt-sn and https://github.com/boriz/MQTT-SN-Arduino. Sample sketches for publishing and subscribing are provided
+- Mote library for Arduino - this provides Remote Terminal Unit [RTU] functionality to arduino with features like analog deadbands, binary debounce, pulse and latch controls, etc. The Mote protocol is an application layer protocol to the MQTTSN libraries and has been defined in the this repos wiki
+- Mqttsn Router using Twisted Networking [python] - Data is routed between serial and UDP. The router buffers incoming data, checks for complete mqttsn packets and send complete packets on. Also decoded Mqttsn messages for debug console printout
 
 Architecture:
 -------------
