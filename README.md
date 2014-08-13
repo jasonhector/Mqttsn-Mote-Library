@@ -19,13 +19,16 @@ Architecture 1 [final]:
 [RSMB]----(UDP)----[TwistedRouter]----(SERIAL)----[RFM12PI]----(RADIO)----[Arduino with Mqttsn and Mote and Jeelib libs]
 
 The wiki contains:
-
+Intended application
 Architecture diagrams
 RSMB config
+Mqttsn Python Client
+Twisted Router
 Mote protocol definition and mapping to Mqttsn
 Mqttsn reference sheet : I decided to teach myself MQTTSN and creating a reference sheet helped
-Todo:
+Screenshots
 
+Todo:
 Code littered with debug print statements - clean this up
 additional sample sketches
 extend mqttsn functionality - only core implemented currently
