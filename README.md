@@ -32,3 +32,4 @@ Todo:
 Code littered with debug print statements - clean this up
 additional sample sketches
 extend mqttsn functionality - only core implemented currently
+extend mqttsn functionality - only core features implemented currently
